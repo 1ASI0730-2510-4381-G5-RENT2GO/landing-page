@@ -61,7 +61,10 @@ const closeMenu = () => {
           </li>
         </ul>
         <ThemeToggle :mode="colorMode" @toggle="emit('toggle-theme')" />
-        <a href="#contact" class="btn-primary">Reservar ahora</a>
+        <div class="flex items-center space-x-4">
+          <a href="https://rent2go.netlify.app/" class="btn-outline">Iniciar sesión</a>
+          <a href="#contact" class="btn-primary">Reservar ahora</a>
+        </div>
       </nav>
 
       <!-- Mobile menu toggle -->
@@ -95,7 +98,10 @@ const closeMenu = () => {
             </a>
           </li>
         </ul>
-        <a href="#contact" @click="closeMenu" class="btn-primary mt-4 w-full flex justify-center">Reservar ahora</a>
+        <div class="flex flex-col space-y-2 mt-4">
+          <a href="https://rent2go.netlify.app/" class="btn-outline w-full flex justify-center">Iniciar sesión</a>
+          <a href="#contact" @click="closeMenu" class="btn-primary w-full flex justify-center">Reservar ahora</a>
+        </div>
       </nav>
     </div>
   </header>

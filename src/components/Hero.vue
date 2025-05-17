@@ -3,10 +3,9 @@
 
 <template>
   <section id="hero" class="relative pt-24 lg:min-h-screen flex items-center">
-    <!-- Background image -->
     <div class="absolute inset-0 z-0">
       <img 
-        src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+        src="https://norisk.mx/wp-content/uploads/2021/07/vehiculo-deportivo-blindado-1080x675.jpeg" 
         alt="Luxury car on road" 
         class="w-full h-full object-cover"
       />
