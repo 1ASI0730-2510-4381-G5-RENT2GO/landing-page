@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue'
+import { ref, watch } from 'vue'
 import { useWindowScroll } from '@vueuse/core'
 import ThemeToggle from './ThemeToggle.vue'
 
-const props = defineProps({
+defineProps({
   colorMode: {
     type: String,
     required: true
