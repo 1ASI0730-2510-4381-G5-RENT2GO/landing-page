@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { useWindowScroll } from '@vueuse/core'
 import ThemeToggle from './ThemeToggle.vue'
 
-defineProps({
+const props = defineProps({
   colorMode: {
     type: String,
     required: true
@@ -45,7 +45,7 @@ const closeMenu = () => {
   >
     <div class="container py-4 flex items-center justify-between">
       <a href="#" class="flex items-center">
-        <span class="text-primary-500 font-bold text-2xl">Rent2Go</span>
+        <span class="text-primary-500 font-bold text-2xl">AutoElite</span>
       </a>
 
       <!-- Desktop nav -->
